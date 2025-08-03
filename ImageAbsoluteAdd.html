@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpolio Absolute Profile Set</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling for the profile container */
+        
+        .profile-container {
+            position:absolute;
+            top: 20px;        /* Distance from the bottom of the page */
+            left: 1000px;          /* Distance from the left edge */
+            width: 120px;        /* Size of the profile picture */
+            height: 120px;       /* Size of the profile picture */
+            border-radius: 50%;
+            border: 3px#000;
+        }
+
+        
+
+        /* Styling for the profile image */
+        .profile-image {
+            width: 150px;    /* Set the width of the profile picture */
+            height: 150px;   /* Set the height of the profile picture */
+            border-radius: 50%;  /* Makes the image circular */
+            border: 3px solid #000; /* Optional: Adds a border around the profile picture */
+            margin-bottom: 20px; /* Adds space below the image */
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Welcome to My Portpolio Page</h1></center>
+    <h3>Demonstration of How to Set the Profile image at any Certain Location.</h3>
+        
+    <!-- Profile Section -->
+    <div class="profile-container">
+        <img src="/Profile.jpeg" alt="Profile Picture" class="profile-image">
+        <div class="profile-description">
+        </div>
+    </div>
+
+</body>
